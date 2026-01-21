@@ -1,0 +1,11 @@
+//Couleurs
+$color1: rgb(173, 42, 129);
+$color1-comp: complement($color1);
+$color-light: lighten($color1,40);
+$color-comp-dark: darken($color1-comp,20);
+
+//Breakpoints
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1080px;
+
